@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskito - Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Baskito</h1>
+            <input type="text" placeholder="Search for products, brands, or categories" class="search-bar">
+            <div class="nav-buttons">
+                <!-- Cart button links to cart.html -->
+                <button onclick="window.location.href='cart.html'">Cart</button>
+                <!-- Seller button links to seller.html -->
+                <button onclick="window.location.href='seller.html'">Seller</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Slider Section -->
+    <section class="slider">
+        <div class="slides">
+            <div class="slide active" style="background-image: url('offer1.jpg');">
+                <h2>Big Sale is Here!</h2>
+                <p>Up to 50% off on Electronics.</p>
+            </div>
+            <div class="slide" style="background-image: url('offer1.jpg');">
+                <h2>Exclusive Fashion Deals</h2>
+                <p>Trendy styles at unbeatable prices.</p>
+            </div>
+            <div class="slide" style="background-image: url('offer1.jpg');">
+                <h2>Home & Kitchen Essentials</h2>
+                <p>Flat 30% off on top brands.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Categories -->
+    <section class="categories">
+        <h2>Top Categories</h2>
+        <div class="category-grid">
+            <div class="category">
+                <img src="electronics.jpg" alt="Electronics">
+                <p>Electronics</p>
+            </div>
+            <div class="category">
+                <img src="fashion.jpg" alt="Fashion">
+                <p>Fashion</p>
+            </div>
+            <div class="category">
+                <img src="home.jpg" alt="Home Appliances">
+                <p>Home Appliances</p>
+            </div>
+            <div class="category">
+                <img src="sports.jpg" alt="Sports">
+                <p>Sports</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="home.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Baskito. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

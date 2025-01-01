@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskito - Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Baskito</h1>
+            <div class="nav-buttons">
+            </div>
+        </div>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="electronics.jpg" alt="Product Image">
+                <div class="item-details">
+                    <p class="item-name">Product 1</p>
+                    <p class="item-price">100.00</p>
+                    <div class="quantity">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" value="1" min="1">
+                    </div>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="fashion.jpg" alt="Product Image">
+                <div class="item-details">
+                    <p class="item-name">Product 2</p>
+                    <p class="item-price">50.00</p>
+                    <div class="quantity">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" value="1" min="1">
+                    </div>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+            <p>Total Items: <span id="total-items">2</span></p>
+            <p>Total Price: <span id="total-price">150.00</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <script src="cart.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Baskito. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
